@@ -1,0 +1,15 @@
+{
+  "name": "blog-example-service",
+  "version": "0.1.0",
+  "description": "Blog example using docker with NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Mario Macai",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "license": "ISC"
+}
