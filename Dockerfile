@@ -1,9 +1,9 @@
 FROM mhart/alpine-node:6.5
 
 # Attach files to container
-ADD index.js /node-app/index.js
-ADD package.json /node-app/package.json
-ADD README.md /node-app/README.md
+COPY index.js /node-service/index.js
+COPY package.json /node-service/package.json
+COPY README.md /node-service/README.md
 
 # Set working directory
 WORKDIR /node-service/
